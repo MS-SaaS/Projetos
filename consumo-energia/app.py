@@ -5,6 +5,6 @@ consumo_mensal = float((potencia * tempo_de_uso * 30) / 1000)
 valor_watt = float(0.75)
 valor_mensal = float(consumo_mensal * valor_watt)
 
-print(" ")
+print("")
 print(f"O consumo mensal do aparelho {aparelho} é de {consumo_mensal:.2f} kWh.")
 print(f"O valor mensal do consumo do aparelho {aparelho} é de R$ {valor_mensal:.2f}.")
