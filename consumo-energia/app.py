@@ -1,0 +1,10 @@
+aparelho = input("Digite o nome do aparelho: ")
+potencia = float(input("Digite a potência do aparelho (em watts): "))
+tempo_de_uso = float(input("Digite o tempo de uso do aparelho (em horas): "))
+consumo_mensal = float((potencia * tempo_de_uso * 30) / 1000)
+valor_watt = float(0.75)
+valor_mensal = float(consumo_mensal * valor_watt)
+
+print(" ")
+print(f"O consumo mensal do aparelho {aparelho} é de {consumo_mensal:.2f} kWh.")
+print(f"O valor mensal do consumo do aparelho {aparelho} é de R$ {valor_mensal:.2f}.")
